@@ -1,0 +1,19 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint",
+      "no-loops"
+    ],
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:prettier/recommended"
+    ],
+    "rules": {
+      "no-console": 1,
+      "no-loops/no-loops": 2,
+      // "prettier/prettier": ["error", {"singleQuote": true, "parser": "flow"}]
+    }
+  }

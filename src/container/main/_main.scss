@@ -1,0 +1,19 @@
+.main-box {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  .main-box-content-zone {
+    .main-box-content-title {
+      font-size: 36px;
+      color: white;
+      font-weight: bold;
+      font-family: "Dancing Script", cursive;
+    }
+  }
+  .main-box-image {
+    width: 30%;
+    img {
+      width: 80%;
+    }
+  }
+}
